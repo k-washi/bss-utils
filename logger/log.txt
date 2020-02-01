@@ -1,0 +1,10 @@
+{"level":"info","time":"2020-02-01T02:55:55.195+0900","msg":"test msg"}
+{"level":"info","time":"2020-02-01T02:56:03.978+0900","msg":"test msg"}
+{"level":"info","ts":1580493934.921949,"caller":"logger/zapLogger.go:62","msg":"test msg"}
+{"level":"info","time":"2020-02-01T03:07:27.805+0900","caller":"logger/zapLogger.go:63","msg":"test msg"}
+{"level":"debug","time":"2020-02-01T03:10:52.771+0900","caller":"logger/zapLogger.go:56","msg":"test msg"}
+{"level":"info","time":"2020-02-01T03:10:52.796+0900","caller":"logger/zapLogger.go:62","msg":"test msg"}
+{"level":"error","time":"2020-02-01T03:10:52.801+0900","caller":"logger/zapLogger.go:71","msg":"test msg","error":"test error"}
+{"level":"debug","time":"2020-02-01T03:11:51.481+0900","caller":"logger/zapLogger.go:56","msg":"test msg"}
+{"level":"info","time":"2020-02-01T03:11:51.538+0900","caller":"logger/zapLogger.go:62","msg":"test msg"}
+{"level":"error","time":"2020-02-01T03:11:51.542+0900","caller":"logger/zapLogger.go:71","msg":"test msg","error":"test error"}
