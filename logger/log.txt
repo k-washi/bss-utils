@@ -8,3 +8,6 @@
 {"level":"debug","time":"2020-02-01T03:11:51.481+0900","caller":"logger/zapLogger.go:56","msg":"test msg"}
 {"level":"info","time":"2020-02-01T03:11:51.538+0900","caller":"logger/zapLogger.go:62","msg":"test msg"}
 {"level":"error","time":"2020-02-01T03:11:51.542+0900","caller":"logger/zapLogger.go:71","msg":"test msg","error":"test error"}
+{"level":"debug","time":"2020-02-01T19:55:15.106+0900","caller":"logger/zapLogger.go:56","msg":"test msg"}
+{"level":"info","time":"2020-02-01T19:55:15.138+0900","caller":"logger/zapLogger.go:62","msg":"test msg"}
+{"level":"error","time":"2020-02-01T19:55:15.143+0900","caller":"logger/zapLogger.go:71","msg":"test msg","error":"test error"}

@@ -2,9 +2,14 @@ package encryption
 
 import (
 	"crypto/md5"
+	"errors"
 	"fmt"
 	"io"
 	"os"
+)
+
+const (
+	md5Length = 32
 )
 
 var (
@@ -40,4 +45,13 @@ func GetMD5(arg1 string, arg2 string) string {
 	io.WriteString(h, pwmd5arg2)
 
 	return fmt.Sprintf("%x", h.Sum(nil))
+}
+
+//Validation md5 validation
+func Validation(input string) error {
+	if len(input) != md5Length {
+		return errors.New("Md5 validation error: length is diff")
+	}
+
+	return nil
 }

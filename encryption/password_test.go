@@ -22,7 +22,7 @@ func TestGetMD5same(t *testing.T) {
 	uniqueDlid := utils.RemoveUlidDuplicate(base)
 
 	assert.EqualValues(t, len(uniqueDlid), 1)
-
+	assert.Nil(t, Validation(base[0]))
 }
 
 func TestGetMD5diff(t *testing.T) {

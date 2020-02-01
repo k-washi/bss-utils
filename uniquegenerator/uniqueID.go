@@ -1,6 +1,7 @@
 package uniquegenerator
 
 import (
+	"errors"
 	"math/rand"
 
 	"github.com/oklog/ulid/v2"
@@ -23,10 +24,10 @@ func Get() string {
 	return generateUlid().String()
 }
 
-//SizeCheck ulid string check size
-func SizeCheck(id string) bool {
-	if len(id) == ulid.EncodedSize {
-		return true
+//Validation ulid string check size
+func Validation(id string) error {
+	if len(id) != ulid.EncodedSize {
+		return errors.New("Unique ID generator validation error: length is not match")
 	}
-	return false
+	return nil
 }

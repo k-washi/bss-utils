@@ -19,5 +19,5 @@ func TestUniqueID(t *testing.T) {
 
 	assert.EqualValues(t, len(base), len(uniqueDlid))
 	fmt.Println("not unique ulid:", utils.GetUlidDuplicateargs(base))
-	assert.True(t, SizeCheck(base[0]))
+	assert.Nil(t, Validation(base[0]))
 }
