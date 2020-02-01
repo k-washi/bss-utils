@@ -1,1 +1,0 @@
-LOGGER_FILE_PATH=./log.txt LOGGER_STDOUT=true LOGGER_LEVEL=debug go test ./logger/... -v

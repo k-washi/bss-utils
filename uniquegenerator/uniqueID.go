@@ -18,7 +18,15 @@ func generateUlid() ulid.ULID {
 	return ulid.MustNew(ulid.Timestamp(t), entropy)
 }
 
-//GetUlid ex. output: 0000XSNJG0MQJHBF4QX1EFD6Y3
-func GetUlid() string {
+//Get ex. output: 0000XSNJG0MQJHBF4QX1EFD6Y3
+func Get() string {
 	return generateUlid().String()
+}
+
+//SizeCheck ulid string check size
+func SizeCheck(id string) bool {
+	if len(id) == ulid.EncodedSize {
+		return true
+	}
+	return false
 }
