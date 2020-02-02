@@ -22,7 +22,7 @@ func getEnv() (*envVals, error) {
 	var err error
 	res.stdout, err = strconv.ParseBool(os.Getenv("LOGGER_STDOUT"))
 	if err != nil {
-		return nil, err
+		res.stdout = true
 	}
 
 	level := os.Getenv("LOGGER_LEVEL")
