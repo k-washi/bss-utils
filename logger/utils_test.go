@@ -27,10 +27,11 @@ func TestGetEnv(t *testing.T) {
 
 func TestLoggin(t *testing.T) {
 	msg := "test msg"
-	Debug(msg)
-	Info(msg)
+
+	Log.Debug(msg)
+	Log.Info(msg)
 	err := errors.New("test error")
-	Error(msg, err)
+	Log.Error(err.Error())
 
 	assert.True(t, exists(logPath))
 

@@ -11,3 +11,24 @@
 {"level":"debug","time":"2020-02-01T19:55:15.106+0900","caller":"logger/zapLogger.go:56","msg":"test msg"}
 {"level":"info","time":"2020-02-01T19:55:15.138+0900","caller":"logger/zapLogger.go:62","msg":"test msg"}
 {"level":"error","time":"2020-02-01T19:55:15.143+0900","caller":"logger/zapLogger.go:71","msg":"test msg","error":"test error"}
+{"level":"info","time":"2020-02-02T23:02:15.205+0900","caller":"logger/zapLogger.go:62","msg":"test msg"}
+{"level":"error","time":"2020-02-02T23:02:15.212+0900","caller":"logger/zapLogger.go:71","msg":"test msg","error":"test error"}
+{"level":"debug","time":"2020-02-02T23:02:43.771+0900","caller":"logger/zapLogger.go:56","msg":"test msg"}
+{"level":"info","time":"2020-02-02T23:02:43.789+0900","caller":"logger/zapLogger.go:62","msg":"test msg"}
+{"level":"error","time":"2020-02-02T23:02:43.793+0900","caller":"logger/zapLogger.go:71","msg":"test msg","error":"test error"}
+{"level":"debug","time":"2020-02-02T23:02:48.311+0900","caller":"logger/zapLogger.go:56","msg":"test msg"}
+{"level":"info","time":"2020-02-02T23:02:48.323+0900","caller":"logger/zapLogger.go:62","msg":"test msg"}
+{"level":"error","time":"2020-02-02T23:02:48.327+0900","caller":"logger/zapLogger.go:71","msg":"test msg","error":"test error"}
+{"level":"debug","time":"2020-02-02T23:03:19.450+0900","caller":"/Users/washizakikai/Documents/workspaces/golang/src/github.com/k-washi/bss-utils/logger/zapLogger.go:56","msg":"test msg"}
+{"level":"info","time":"2020-02-02T23:03:19.466+0900","caller":"/Users/washizakikai/Documents/workspaces/golang/src/github.com/k-washi/bss-utils/logger/zapLogger.go:62","msg":"test msg"}
+{"level":"error","time":"2020-02-02T23:03:19.471+0900","caller":"/Users/washizakikai/Documents/workspaces/golang/src/github.com/k-washi/bss-utils/logger/zapLogger.go:71","msg":"test msg","error":"test error"}
+{"level":"debug","time":"2020-02-02T23:03:34.831+0900","caller":"logger/zapLogger.go:56","msg":"test msg"}
+{"level":"info","time":"2020-02-02T23:03:34.850+0900","caller":"logger/zapLogger.go:62","msg":"test msg"}
+{"level":"error","time":"2020-02-02T23:03:34.854+0900","caller":"logger/zapLogger.go:71","msg":"test msg","error":"test error"}
+{"level":"debug","time":"2020-02-02T23:08:00.979+0900","caller":"logger/zapLogger.go:56","msg":"test msg"}
+{"level":"debug","time":"2020-02-02T23:08:00.998+0900","caller":"logger/utils_test.go:31","msg":"test msg"}
+{"level":"info","time":"2020-02-02T23:08:00.998+0900","caller":"logger/zapLogger.go:62","msg":"test msg"}
+{"level":"error","time":"2020-02-02T23:08:01.001+0900","caller":"logger/zapLogger.go:71","msg":"test msg","error":"test error"}
+{"level":"debug","time":"2020-02-02T23:24:13.185+0900","caller":"logger/utils_test.go:31","msg":"test msg"}
+{"level":"info","time":"2020-02-02T23:24:13.186+0900","caller":"logger/utils_test.go:32","msg":"test msg"}
+{"level":"error","time":"2020-02-02T23:24:13.186+0900","caller":"logger/utils_test.go:34","msg":"test error"}

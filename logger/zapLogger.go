@@ -13,7 +13,7 @@ https://github.com/uber-go/zap#performance
 */
 
 var (
-	log *zap.Logger
+	Log *zap.Logger
 )
 
 func init() {
@@ -46,11 +46,12 @@ func init() {
 		},
 	}
 
-	if log, err = logConfig.Build(); err != nil {
+	if Log, err = logConfig.Build(); err != nil {
 		panic(err)
 	}
 }
 
+/*
 //Debug debug msg
 func Debug(msg string, tags ...zap.Field) {
 	log.Debug(msg, tags...)
@@ -71,3 +72,4 @@ func Error(msg string, err error, tags ...zap.Field) {
 	log.Error(msg, tags...)
 	log.Sync()
 }
+*/
